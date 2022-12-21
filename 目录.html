@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>C语言教学</title>
+	<style>
+		* {
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		.beijing {
+			background-image: url(./img/1.png);
+			background-repeat: no-repeat;
+			-webkit-background-size: 100% 100%;
+			/* Safari 3.0 */
+			-moz-background-size: 100% 100%;
+			/* Gecko 1.9.2 (Firefox 3.6) */
+			-o-background-size: 100% 100%;
+			/* Opera 9.5 */
+			width: 100%;
+			height: 100vh;
+			position: relative;
+		}
+
+		.nav {
+			position: absolute;
+			width: 50%;
+			bottom: 110px;
+			box-sizing: border-box;
+			padding-left: 52px;
+			transform: rotate(-0.012turn);
+		}
+
+		button {
+			background-color: transparent;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: #4959a0;
+			font-weight: 800;
+			letter-spacing: 0.02in;
+			width: 250px;
+			height: 55px;
+			border: 0;
+			margin-top: 0;
+			display: block;
+			bottom: 0%;
+			font-size: 25px;
+			text-align: center;
+			box-sizing: content-box;
+			transition: all 0.25s;
+
+		}
+
+		button:link {
+			text-decoration: none;
+			color: black;
+			transition: all 0.25s;
+		}
+
+		button:hover {
+			background-color: transparent;
+			border: 2px;
+			border-color: beige;
+			border-style: inset;
+			border-radius: 5px;
+			box-sizing: border-box;
+			transition: all 0.25s;
+			filter: hue-rotate(30deg);
+			transform: scale3d(1.1, 1.1, 1.1);
+			transition: all 0.25s;
+		}
+
+		img {
+			position: fixed;
+			right: 20px;
+			bottom: 110px;
+		}
+
+		h1 {
+			color: #cfe4a9;
+			letter-spacing: 0.2in;
+			font-style: italic;
+			position: fixed;
+			top: 250px;
+			right: 150px;
+			display: inline-block;
+			font-weight: bold;
+			font-size: 32px;
+			text-shadow: 0 0 1px currentColor, -1px -1px 1px #a7b788, 0 -1px 1px #a7b788, 1px -1px 1px #a7b788, 1px 0 1px #a7b788, 1px 1px 1px #a7b788, 0 1px 1px #a7b788, -1px 1px 1px #a7b788, -1px 0 1px #a7b788;
+			-webkit-filter: url(#diff1);
+			filter: url(#diff1);
+			transition: all 0.25s;
+			/*background:#def;padding:0 .2em*/
+		}
+
+		h1:hover {
+			position: fixed;
+			transform: scale3d(1.1, 1.1, 1.1);
+			transition: all 0.25s;
+		}
+
+		.tabbar {
+			position: absolute;
+			bottom: 25%;
+			right: 15%;
+			transform: rotate3d(0, 0, 1, -6deg);
+		}
+		.tabbar .background {
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			position: relative;
+			background: #1090ee;
+			box-sizing: border-box;
+			color: #fff;
+			width: 150%;
+			padding: 2.5% 0;
+			text-decoration: none;
+			box-shadow: 2px 2px 10px 0px #515113;
+			transition: all 0.25s;
+		}
+		.tabbar .background:hover {
+			filter: hue-rotate(30deg);
+			transform: scale3d(1.1, 1.1, 1.1);
+			transition: all 0.25s;
+		}
+		.tabbar .background .item {
+			transform: rotate3d(0, 0, 1, -2deg);
+			position: relative;
+			left: 0;
+			top: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="beijing">
+		<div class="nav">
+			<a href="./教学模块/情境教学.html" style="text-decoration: none;"><button>探究性学习</button></a>
+			<a href="./思维导图/知识回顾.html" style="text-decoration: none;"><button>知识回顾</button></a>
+			<a href="./宗门考核/宗门考核.html" style="text-decoration: none;"><button>宗门考核</button></a>
+			<a href="./拓展学习模块/拓展学习.html" style="text-decoration: none;"><button>拓展学习</button></a>
+			<a href="https://www.umu.cn/course/?groupId=6253300&sKey=caf023d420e08bdac170c5f6a3d5c292#/" style="text-decoration: none;"><button>课后资源</button></a>
+		</div>
+		<a href="./导航模块/导航页1.html">
+			<h1>操作导航</h1>
+		</a>
+		<div class="tabbar">
+			<a href="./简介.html" class="background">
+				<img src="./img/98685692d3c8d43176c6f7b578c526c.png" width="300" alt="" class="item">
+			</a>
+		</div>
+	</div>
+</body>
+
+</html>

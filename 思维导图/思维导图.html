@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>思维导图</title>
+    <style>
+        body{
+    background-image: url(../img/7.png);
+    background-size: 100% 100%;
+    height:700px;
+    background-repeat: no-repeat;
+}
+#mainbox
+{
+    width: 68%;
+    height: 450px;
+    transform: translate(-50%,33%);
+    margin-left:50%;
+    display: flex;
+    flex-direction: column;
+}
+#headbox
+{
+    height: 15%;
+    font-size:50px;
+    font-weight: bolder;
+    padding: 0;
+    line-height: 50px;
+    letter-spacing: 8px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#xian
+{
+    height: 2px;
+    width: 250px;
+    background-color: black;
+    margin-left: 3px;
+    z-index: 10;
+    margin-top: 10px;
+    text-align: center;
+}
+#siwei
+{
+    width: 80%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+        <div id="headbox">知识回顾</div>
+        <div id="xian"><p>概念图</p></div>
+        <img src="../img/10.png" alt="思维导图" id="siwei">
+    </div>
+</body>
+</html>
